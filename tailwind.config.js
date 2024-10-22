@@ -14,6 +14,8 @@ export default {
         extend: {
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+                vt323: ['VT323', 'monospace'],
+                impact: ['Impact', 'sans-serif'],
             },
         },
     },

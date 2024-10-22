@@ -10,4 +10,10 @@ export default defineConfig({
         }),
         react(),
     ],
+    resolve: {
+        alias: {
+            '@public': '/public',
+        },
+    },
 });
+
